@@ -14,13 +14,16 @@
     padding: 0px;
     font-size: 1em;
 }
+html, body{
+    min-height: 100vh;
+}
 header{
     background-color: black;
     color: white;
     font-family: var(--fonte2);
-    font-size: 3.2em;
+    font-size: 10vw ;
     text-align: center;
-    padding: 1.3em;
+    padding: .5em;
 }
 header p{
     color: white;
@@ -33,11 +36,9 @@ header p a{
     text-decoration: none;
 }
 section{
-    padding-left: 2vh;
-    padding-bottom: 2vh;
-    padding-bottom: 2em;
     font-weight: bold;
     font-family: var(--fonte3);
+    
 }
 .white{
     height: auto;
@@ -48,13 +49,14 @@ section{
     margin: auto;
 }
 .image1{
-    background: black url(imagens/background001.jpg) center right no-repeat fixed;
+    background: black url(imagens/background001.jpg) center center no-repeat fixed;
     min-height: 400px;
     line-height: 2em;
     font-size:1.5em ;
     text-align: left;
     padding: 50px;
     margin: auto;
+    
 }
 .image2{
     background: black url(imagens/background002.jpg) center center no-repeat fixed;
@@ -64,6 +66,12 @@ section{
     text-align: left;
     padding: 50px;
     margin: auto;                           
+}
+.sombra{
+    display: inline-block;
+   background-color: rgba(0, 0, 0, 0.534);
+   color: white;
+   padding: 15px;
 }
 .espaço{
     padding-top: 40px ;
